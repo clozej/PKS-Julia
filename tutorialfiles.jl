@@ -1,5 +1,5 @@
 #variables
-#can use univode charcters and latex symbols
+#can use unicode charcters and latex symbols
 x = 1
 name = "robot"
 print(name)
