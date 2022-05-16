@@ -537,4 +537,16 @@ hreads.@threads for i = 1:10
     a[i] = Threads.threadid()
 end
 
-Julia: Start REPL
+# macros
+# @time, @elapsed, and @allocated help monitor runtime and memory allocation
+@time rand(1000,1000);
+for i in 1:10
+            setup_time = @elapsed r = rand(500,500)
+            diag_time = @elapsed d = eigvals(r)
+            println("step $i of 10: setup: $(setup_time)s; diagonalization: $(diag_time)s.")
+end 
+
+# @inbounds stops bound checking in loops to reduce execution time. Use with caution.
+
+# @code_warntype checks for type stability.
+
