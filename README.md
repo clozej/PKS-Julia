@@ -8,3 +8,5 @@ provide a more detailed explanation of what each code cell does.
 
 The codesnippets.jl file contains a collection of useful code snippets. 
 It is not a fully functional Julia script and is intended only to be used as a reference.
+
+The problems to be solved in the Hackathon are given in the julia_problems.pdf file.
