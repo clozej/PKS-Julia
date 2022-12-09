@@ -1,0 +1,36 @@
+
+
+Download from the official Julia webpage
+
+https://julialang.org/
+
+Detailed platform specific instalation instructions may be found at 
+
+https://julialang.org/downloads/platform/
+
+I personaly used the jill.py multiplatform installer tool (from section Cross-platform instaler).
+
+After installing you may start the Julia REPL (Read–Eval–Print Loop) by typing julia on the command line. The Julia REPL (Read–Eval–Print Loop) is a program that reads and executes Julia code. 
+
+For the tutorial I will be running Julia in VS Code, using jupyter notebooks. 
+
+
+Some usefull links to get started:
+
+The Julia documentation 
+https://docs.julialang.org/en/v1/
+
+From zero to Julia! (by Aurelio Amerio) is a series of introductory lessons for the Julia programing language. It also contains other very usefull information for optimizing workflow, optimizing code, benchmarking...
+https://techytok.com/from-zero-to-julia/
+
+Think Julia: How to Think Like a Computer Scientist (by Allen Downey and Ben Lauwens) is a general programing course book using the Julia language.
+https://benlauwens.github.io/ThinkJulia.jl/latest/book.html#_preface 
+
+
+MATLAB vs Python vs Julia cheat sheet
+https://cheatsheets.quantecon.org/
+
+A nice list of syntactic differences between Julia and other languages
+https://docs.julialang.org/en/v1/manual/noteworthy-differences/
+
+
